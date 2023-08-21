@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Name :-"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:hint="Name"
+        android:background="@drawable/style"
+        android:layout_toRightOf="@+id/txtName"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/txtCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_marginLeft="20dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/txtName"
+        android:text="City :-"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:hint="City"
+        android:background="@drawable/style"
+        android:layout_toRightOf="@+id/txtCity"
+        android:layout_below="@+id/edtName"/>
+
+
+    <TextView
+        android:id="@+id/txtDob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCity"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginLeft="20dp"
+        android:text="DoB :-"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtDob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_toRightOf="@+id/txtDob"
+        android:layout_margin="10dp"
+        android:hint="DoB"
+        android:background="@drawable/style"
+        android:layout_below="@+id/edtCity"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtDob"
+        android:layout_margin="10dp"
+        android:text="Submit"
+        android:textSize="20sp"/>
+
+</RelativeLayout>

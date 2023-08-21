@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">sem_2_prac_4</string>
+   <string-array name="city">
+       <item>Surat</item>
+       <item>Mehsana</item>
+       <item>Gandhinagar</item>
+       <item>Ahmedawad</item>
+       <item>Rajkot</item>
+   </string-array>
+
+</resources>
